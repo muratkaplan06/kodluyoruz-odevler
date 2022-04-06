@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+        
+        .googlelogo {
+            background: url(img/google.jpg) no-repeat center;
+            height: 200px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        
+        .space {
+            width: 500px;
+        }
+        
+        .register {
+            background-color: #dfdfde;
+            margin: 5px;
+            text-align: center;
+        }
+        
+        .button {
+            margin-top: 10px;
+        }
+        
+        .links {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            text-align: center;
+        }
+        
+        .link {
+            background-color: #00afc1;
+            margin: 5px;
+        }
+        
+        .footer {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="googlelogo"></div>
+</body>
+<div class="register">
+    <form action="/action_page.php">
+        <label for="search">Search The Web Using Google</label><br />
+        <input class="space" type="text" id="search" name="search" /><br />
+        <div class="button">
+            <button type="button">Google Search</button>
+            <button type="button">I'm feeling lucky</button>
+        </div>
+    </form>
+</div>
+<div class="links">
+    <div class="link">
+        <ul>
+            <li><a href="#">Special Serches</a></li>
+            <li><a href="#">Standfort Search</a></li>
+            <li><a href="#">Linux Search</a></li>
+        </ul>
+    </div>
+    <div class="link">
+        <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">About Google</a></li>
+            <li><a href="#">Company Info</a></li>
+            <li><a href="#">Google Logos</a></li>
+        </ul>
+    </div>
+    <div class="link">
+        Get Google! <br /> updates monthly:
+        <br />
+        <input type="text" name="emailaddr" value="your e-mail" />
+        <br />
+        <input type="submit" name="SubmitAction" value="Subscribe" />
+    </div>
+</div>
+<div class="footer">Copyright ©1998 Google Inc.</div>
+
+</html>
