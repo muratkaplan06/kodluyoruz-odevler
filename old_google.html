@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #5f6368;
+        }
+        
+        .profile_photo img {
+            margin: auto;
+            display: block;
+            width: 50px;
+            margin-top: 10px;
+        }
+        
+        .profile_photo {
+            text-align: center;
+        }
+        
+        .text-area {
+            position: relative;
+        }
+        
+        .text-area input {
+            border-radius: 50px;
+            margin: 10px auto;
+            height: 30px;
+            width: 480px;
+        }
+        
+        .text-area img {
+            position: absolute;
+            left: 460px;
+            top: 12px;
+            height: 25px;
+        }
+        
+        .logo img {
+            width: 480px;
+        }
+        
+        .container {
+            margin-left: 50%;
+            transform: translate(-30%);
+        }
+        
+        .button {
+            margin-left: 50%;
+            transform: translate(-60%);
+        }
+        
+        .button input {
+            width: 120px;
+            border: 1px solid #f2f2f2;
+        }
+        
+        .footer {
+            height: 35px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: #e6e6e6;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        * a {
+            text-decoration: none;
+            color: #999999;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile_photo">
+        <img src="img/profile-pic.png" alt="" />
+        <img src="img/appsbutton.svg" alt="" />
+
+        <p>Images</p>
+        <p>Gmail</p>
+    </div>
+    <div class="container">
+        <div class="logo">
+            <img src="img/googlefirstlogo.png" alt="" />
+        </div>
+        <div class="text-area">
+            <input type="text" />
+            <img src="img/voicelogo.png" alt="" />
+        </div>
+        <div class="button">
+            <input type="button" value="Google Search" onclick="msg()" />
+            <input type="button" value="I'm Feeling Lucky" onclick="msg()" />
+        </div>
+    </div>
+    <div class="footer">
+        <div class="section-1">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search Works</a>
+        </div>
+        <div class="section-2">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
+    </div>
+</body>
+
+</html>
