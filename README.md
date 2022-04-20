@@ -1,6 +1,6 @@
 ## Kodluyoruz İlk Repo
 
-Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Front-End Eğitiminde Patika.dev eğitimi botunca yaptığım ödevler
+Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Front-End Eğitiminde Patika.dev eğitimi boyunca yaptığım ödevler için oluşturulmuştur.
 
 
 | İsim  | Soyisim | Patika.dev Profil linki              |
