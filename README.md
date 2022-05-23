@@ -1,25 +1,7 @@
 ## Kodluyoruz İlk Repo
 
-Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Front-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası bir adet de index.html barındırıyor.
+Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Front-End Eğitiminde Patika.dev eğitimi boyunca yaptığım ödevler için oluşturulmuştur.
 
-## Installation
-
-Öncelikle projeyi clonlayın.
-
-    https://github.com/muratkaplan06/kodluyoruzilkrepo
-
-## Usage
-
-Projeyi clonladıktan sonra Visual Studio Code programında açınız.
-
-Linux için:
-
-    cd kodluyoruzilkrepo
-    code .
-
-## Contributing
-
-Pull requestler kabul edilir. Büyük değişiklikler için lütfen önce neyi değiştirmek istediğini tartışmak için konu açınız.
 
 | İsim  | Soyisim | Patika.dev Profil linki              |
 | ----- | ------- | ------------------------------------ |
